@@ -241,5 +241,7 @@ while not done:
     pygame.display.flip()
     clock.tick(60)
 
+    gitTest = 10
+
 pygame.quit()
 sys.exit()
