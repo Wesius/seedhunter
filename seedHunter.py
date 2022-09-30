@@ -6,6 +6,8 @@ import sys
 import random
 import os
 
+gitTest = 0
+
 # TODO Score counter
 
 # Colors
