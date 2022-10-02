@@ -159,7 +159,9 @@ while not done:
         
         for seed in seedLst:
             if p.Rect.colliderect(seed.rect):
+                #FIXME Score getting higher too fast.
                 score += 1
+                print("hit")
 
         if p.y_coord > screen.get_height() + camOffset:
             pygame.mixer.Sound.play(gameOverSound)
